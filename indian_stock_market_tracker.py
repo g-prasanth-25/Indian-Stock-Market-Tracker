@@ -1,7 +1,7 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-
+#fetch data
 def fetch_stock_data(ticker, start_date, end_date):
     """Fetch historical stock data from Yahoo Finance."""
     try:
